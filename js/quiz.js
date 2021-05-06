@@ -105,7 +105,7 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Create questions
 	var questions = [
 		new FormatQuestion('How many planets are in the Solar System?', ['Five', 'Six', 'Seven', 'Eight'], 'Eight'),
-		new FormatQuestion('Which is the closest planet to the sun?', ['Mercury', 'Mars', 'Terra', 'Pluto'], 'Mercury'),
+		new FormatQuestion('Which of the planets is the closest planet to the sun?', ['Mercury', 'Mars', 'Terra', 'Pluto'], 'Mercury'),
 		new FormatQuestion('Who are the celestial bodies with their own light?', ['Planets', 'Stars', 'Asteroids', 'Satellites'], 'Stars'),
 		new FormatQuestion('What type of celestial body is the moon?', ['A big meteorite', 'An Asteroid', 'A natural satellite', 'A small planet'], 'A natural satellite'),
 		new FormatQuestion('Who is the largest planet in the solar system?', ['Mars', 'Terra', 'Saturn', 'Jupiter'], 'Jupiter'),
