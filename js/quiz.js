@@ -82,9 +82,9 @@ document.addEventListener('DOMContentLoaded', function () {
 			if (grade >= 0.8) {
 				results += '<h2><br>Congratulations!<br>The result shows that you have extensive knowledge about astronomy!</h2>';
 			} else if (grade < 0.8 && grade > 0.5) {
-				results += '<h2><br>The result shows that you need to read more information from astronomy!</h2>';
+				results += '<h2><br>The result shows that you need to know more about astronomy!</h2>';
 			} else {
-				results += '<h2><br>The result shows that you have not read much information from astronomy!</h2>';
+				results += '<h2><br>The result shows that you do not know much about astronomy!</h2>';
 			}
 			results += '<br><button id="reset">Try Again?</button>';
 			this.fillingWithText('questionnaire', results);
