@@ -334,7 +334,7 @@ button {
 }
 
 button:active {
-  background-color: springgreen;
+  background-color: cyan;
 }
 
 button:focus {
